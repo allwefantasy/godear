@@ -1,0 +1,60 @@
+mode:
+    development
+
+
+development:
+    datasources:
+        mysql:
+           host: 127.0.0.1
+           port: 3306
+           database: godear
+           username: root
+           password: wow
+           disable: true
+        mongodb:
+           host: 127.0.0.1
+           port: 27017
+           database: wow
+           disable: true
+        redis:
+            host: 127.0.0.1
+            port: 6379
+            disable: true
+
+test:
+    datasources:
+        mysql:
+           host: 127.0.0.1
+           port: 3306
+           database: godear
+           username: root
+           password: wow
+           disable: false
+        mongodb:
+           host: 127.0.0.1
+           port: 27017
+           database: wow
+           disable: true
+        redis:
+            host: 127.0.0.1
+            port: 6379
+            disable: true
+
+application:
+    controller: wgs0120.controller.http
+    model:      wgs0120.model
+    document:   wgs0120.document
+    service:    wgs0120.service
+    util:       wgs0120.util
+    test:       test.wgs0120
+    template:
+        engine:
+           enable: true
+    static:
+           enable: true
+    session:
+           enable: true
+###############http config##################
+http:
+    port: 9103
+    disable: false

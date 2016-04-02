@@ -1,0 +1,21 @@
+/**
+验证tableMapping参数是否有效
+若数据存储到download_table，blog_table 则有效，反之无效
+*/
+{
+    "push": {
+        "host": "127.0.0.1",
+        "database": "wow",
+        "table": "data",
+        "timeout": 10000
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "tableMapping": {
+        "download": "download_table",
+        "blog": "blog_table"
+    },
+    "type": "MONGO"
+}

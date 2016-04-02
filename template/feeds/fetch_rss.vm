@@ -1,0 +1,24 @@
+<form class="form-horizontal" action="/fetch/rss" method="POST">
+    <fieldset>
+
+
+        <legend>设置定时抓取Feed</legend>
+        <p>时间为分钟。此时状态: [$msg]</p>
+        <pre>类似linux crontab。格式: [秒] [分] [小时] [日] [月] [周] [年]
+
+            常用示例:
+
+            0 0 12 * * ?	每天12点触发
+            0 15 10 ? * *	每天10点15分触发
+            0 15 10 * * ?	每天10点15分触发
+            0 15 10 * * ? *	每天10点15分触发</pre>
+        #parse("/common/partital/create_feed_field.vm")
+        #create_feed_field("crontab设置" "time" "")
+        <div class="control-group">
+            <div class="controls">
+                <button id="button1id" name="submit" class="btn btn-success">启动</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>

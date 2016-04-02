@@ -1,0 +1,16 @@
+/**
+验证responseStr参数是否有效
+*/
+{
+    "push": {
+        "url": "http://search.api.csdn.net/{}/csdn/_bulk"
+    },
+    "destroy": {
+        "url": "http://search.api.csdn.net/{}/csdn/_destroy"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "responseStr": "成功"
+}

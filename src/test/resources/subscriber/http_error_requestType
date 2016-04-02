@@ -1,0 +1,17 @@
+/**
+验证method参数错误是否报错
+*/
+{
+    "push": {
+        "url": "http://search.api.csdn.net/{}/csdn/_bulk",
+        "method": "DELETE"
+    },
+    "destroy": {
+        "url": "http://search.api.csdn.net/{}/csdn/_destroy",
+        "method": "POST"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ]
+}

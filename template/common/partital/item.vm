@@ -1,0 +1,38 @@
+#macro(feedItem $feed)
+<div id="tableViewCell5" class="tableViewCell">
+    <div class="cornerControls">
+        <a href="/feeds/$feed.id/subscribe" class="actionButton textButton subscribeLink">订阅</a>
+    </div>
+    <div class="starBox">
+        <a href="$feed.link" rel="nofollow" title="Open: $feed.link" target="_blank">
+            <img class="favicons" onerror="this.src='http://dn-dogear.qbox.me/static/favicons.png?v=1.0'"
+                 src="http://dn-dogear.qbox.me/static/icons/5.png?v=1.0">
+        </a>
+    </div>
+
+    <div class="titleRow">
+        <a href="/feeds/$feed.link" title="$feed.title" class="tableViewCellTitleLink">$feed.title</a>
+    </div>
+
+    <div class="summaryRow">
+        $feed.description
+    </div>
+
+    <div class="secondaryControls">
+        <span class="host">$feed.createdAt</span>
+        <span class="separator">•</span>
+        <span class="host">已订阅 8752</span>
+
+        <span class="separator">•</span>
+        <a href="$feed.rss" rel="nofollow" target="_blank"
+           class="actionLink">RSS</a>
+
+        <!-- <span class="separator">&bull;</span> -->
+        <!-- <a href="/feed/5/report" id="text5" class="actionLink reportLink" title="报错">报错</a> -->
+
+
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+#end
+

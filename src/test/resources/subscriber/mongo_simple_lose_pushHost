@@ -1,0 +1,14 @@
+/**
+验证无push.host参数是否可用
+*/
+{
+    "push": {
+        "database": "wow",
+        "table": "data"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "type": "MONGO"
+}

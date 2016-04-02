@@ -1,0 +1,53 @@
+//blog主题注册
+{
+    "id": {
+        "type": "integer",
+        "length": {
+            "min": 1,
+            "max": 11
+        },
+        "require": true
+    },
+    "created_at": {
+        "type": "string"
+    },
+    "created_at2": {
+        "type": "long"
+    },
+    "user_name": {
+        "type": "string"
+    },
+    "title": {
+        "type": "string"
+    },
+    "body": {
+        "type": "string"
+    },
+    "url": {
+        "type": "string"
+    },
+    "tag": {
+        "type": "string"
+    },
+    "status": {
+        "type": "integer"
+    },
+    "article_type": {
+        "type": "integer"
+    },
+    "channel_id": {
+        "type": "integer"
+    },
+    "test_field": {
+        "type": "float"
+    },
+    "test_field2": {
+        "type": "double"
+    },
+    "test_field3": {
+        "type": "long"
+    },
+    "test_field4": {
+        "type": "boolean"
+    }
+}

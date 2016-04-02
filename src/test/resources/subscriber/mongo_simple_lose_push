@@ -1,0 +1,10 @@
+/**
+验证无push参数是否可用
+*/
+{
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "type": "MONGO"
+}

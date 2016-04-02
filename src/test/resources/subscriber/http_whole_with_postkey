@@ -1,0 +1,41 @@
+/**
+订阅者接收数据方式为http的完整配置
+*/
+{
+    "push": {
+        "url": "http://mvn.csdn.net:8088/{}/csdn/_bulk",
+        "method": "POST",
+        "fields": [
+            "id",
+            "title"
+        ],
+        "isMulti": true,
+        "timeout": 5000,
+        "postKey": "content",
+        "filter": {
+            "blog": [
+                {
+                    "status": 1
+                },
+                {
+                    "status": 2
+                }
+            ]
+        }
+    },
+    "destroy": {
+        "url": "http://mvn.csdn.net:8088/{}/csdn/_destroy",
+        "method": "DELETE",
+        "traditionalDestroy": true
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "triggerFields": [],
+    "type": "HTTP",
+    "responseStr": "成功",
+    "aclToken": "X-ACL-TOKEN:jajja",
+    "enableFailLog": false,
+    "name": "tag_system_v2"
+}

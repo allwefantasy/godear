@@ -1,0 +1,17 @@
+/**
+验证destroy.traditionalDestroy参数是否有效
+*/
+{
+    "push": {
+        "url": "http://search.api.csdn.net/{}/csdn/_bulk"
+        "isMulti": true
+    },
+    "destroy": {
+        "url": "http://search.api.csdn.net/{}/csdn/_destroy",
+        "traditionalDestroy": true
+    },
+    "sources": [
+        "download",
+        "blog"
+    ]
+}

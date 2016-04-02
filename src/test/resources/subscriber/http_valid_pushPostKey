@@ -1,0 +1,16 @@
+/**
+验证push.postKey参数是否有效
+*/
+{
+    "push": {
+        "url": "http://search.api.csdn.net/{}/csdn/_bulk",
+        "postKey": "form"
+    },
+    "destroy": {
+        "url": "http://search.api.csdn.net/{}/csdn/_destroy"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ]
+}

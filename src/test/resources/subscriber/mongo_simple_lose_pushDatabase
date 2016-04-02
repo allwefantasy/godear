@@ -1,0 +1,14 @@
+/**
+验证无push.database参数是否可用
+*/
+{
+    "push": {
+        "host": "127.0.0.1",
+        "table": "data"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "type": "MONGO"
+}

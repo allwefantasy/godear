@@ -1,0 +1,11 @@
+{"push":{
+      "url":"接受信息的url地址",
+      "method":"POST",
+      "postKey":"content",//如果需要form表单才需要这个格式
+      "sources":["wow"],
+      "type":"HTTP",
+      "responseStr":"成功接收",
+      "enableFailLog":false,
+      "name":"ts"
+
+}

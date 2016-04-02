@@ -1,0 +1,20 @@
+//要求为string类型，实际上报为其他类型
+[
+    {
+        "id": 101,
+        "created_at": 2013122310,
+        "created_at2": 123456,
+        "user_name": 123,
+        "title": 0.123456,
+        "body": 0.123456789,
+        "url": 1234567890123,
+        "tag": true,
+        "status": 1,
+        "article_type": 1,
+        "channel_id": 1,
+        "test_field": 0.123456,
+        "test_field2": 0.123456789,
+        "test_field3": 1234567890123,
+        "test_field4": true
+    }
+]

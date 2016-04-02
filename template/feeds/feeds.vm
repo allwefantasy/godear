@@ -1,0 +1,8 @@
+<div id="bookmark_list">
+    #parse("/common/partital/item.vm")
+    #foreach( $feed in $feeds)
+    #feedItem($feed)
+#end
+</div>
+$paginate.paginate()
+

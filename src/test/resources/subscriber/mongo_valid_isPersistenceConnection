@@ -1,0 +1,17 @@
+/**
+验证isPersistenceConnection参数是否有效
+*/
+{
+    "push": {
+        "host": "127.0.0.1",
+        "database": "wow",
+        "table": "data",
+        "timeout": 10000
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "isPersistenceConnection": false,
+    "type": "MONGO"
+}

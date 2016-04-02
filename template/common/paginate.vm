@@ -1,0 +1,6 @@
+<div class="pagination">
+    <ul>
+        #if($havePreview) <a href="/feeds?page=$preview&pageSize=$pageSize">上一页</a>  #end
+        #if($haveNext) <a href="/feeds?page=$next&pageSize=$pageSize">下一页</a>  #end
+    </ul>
+</div>

@@ -1,0 +1,22 @@
+<form class="form-horizontal" action="/feeds/create" method="POST">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>创建Feed</legend>
+
+        #parse("/common/partital/create_feed_field.vm")
+        #create_feed_field("源名称" "name" "")
+        #create_feed_field("标题" "title" "")
+        #create_feed_field("描述" "discription" "")
+        #create_feed_field("源RSS地址" "rss" "")
+        #create_feed_field("源链接" "link" "")
+
+        <div class="control-group">
+
+            <div class="controls">
+                <button id="button1id" name="submit" class="btn btn-success">提交</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>

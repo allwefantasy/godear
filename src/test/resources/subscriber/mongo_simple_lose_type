@@ -1,0 +1,14 @@
+/**
+验证无type参数是否可用
+*/
+{
+    "push": {
+        "host": "127.0.0.1",
+        "database": "wow",
+        "table": "data"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ]
+}

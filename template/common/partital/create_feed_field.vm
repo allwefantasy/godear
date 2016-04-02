@@ -1,0 +1,24 @@
+#macro(create_feed_field $name $filedName $help)
+<div class="control-group">
+    <label class="control-label" for="textinput">$name</label>
+
+    <div class="controls">
+        <input id="$filedName" name="$filedName" type="text" class="input-xlarge">
+
+        <p class="help-block">$help</p>
+    </div>
+</div>
+#end
+
+#macro(create_password_field $name $filedName $help)
+<div class="control-group">
+    <label class="control-label" for="textinput">$name</label>
+
+    <div class="controls">
+        <input id="$filedName" name="$filedName" type="password" class="input-xlarge">
+
+        <p class="help-block">$help</p>
+    </div>
+</div>
+#end
+

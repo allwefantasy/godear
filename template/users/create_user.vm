@@ -1,0 +1,19 @@
+<form class="form-horizontal" action="/users/create" method="POST">
+    <fieldset>
+
+
+        <legend>注册</legend>
+        <div style="color: red">$!msg</div>
+        #parse("/common/partital/create_feed_field.vm")
+        #create_feed_field("邮箱" "email" "")
+        #create_password_field("密码" "password" "")
+
+        <div class="control-group">
+            <div class="controls">
+                <button id="button1id" name="submit" class="btn btn-success">提交</button>
+                <a href="/users/login">登录</a>
+            </div>
+        </div>
+
+    </fieldset>
+</form>

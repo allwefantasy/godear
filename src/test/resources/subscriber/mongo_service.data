@@ -1,0 +1,18 @@
+{
+        "push":{
+               "host":"127.0.0.1",
+               "port":27017,
+               "database":"wow",
+               "table":"data",
+               "fields":["id","title"],
+               "timeout":5000,
+               "filter":[{"status":1,"created_at":2013122011}]
+           },
+
+        "sources":["news","blog"],
+        "tableMapping":{"news":"news_table","blog":"blog_table"},
+        "type":"MONGO",
+        "enableFailLog":false,
+        "isPersistenceConnection": false,//是否是持久连接。否则每次分发都会新建一个数据库连接。
+        "name":"mongo_service"
+}

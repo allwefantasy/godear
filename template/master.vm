@@ -1,0 +1,452 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>上帝的耳朵- 全文RSS订阅推送服务</title>
+    <meta name="description" content="全文RSS订阅推送服务，支持Kindle、多看和Nook等移动电子阅读设备">
+    <meta name="keywords"
+          content="eink,kindle rss,epub,kindle,电子书,rss,e-ink,电子书,kindle看新闻,Sony Reader,离线rss,nook,google reader,rss阅读器,多看,dogear.mobi,dog.whycai.com,mydogear.com,mLook 邀请码,mlook,狗耳朵日报">
+    <meta property="wb:webmaster" content="a4e0306b0ee26cd1">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(57px).png?v=1.0">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(72px).png?v=1.0"
+          sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(76px).png?v=1.0"
+          sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(114px).png?v=1.0"
+          sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(120px).png?v=1.0"
+          sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="http://dn-dogear.qbox.me/static/dogear(152px).png?v=1.0"
+          sizes="152x152">
+    <link rel="shortcut icon" href="http://dn-dogear.qbox.me/static/favicon.ico?v=1.0">
+    <link rel="stylesheet" href="http://dn-dogear.qbox.me/static/main.css?v=1.0" type="text/css">
+
+    <style>
+        .ad_banner a, .ad_banner a:visited {
+            font-size: 18px;
+            color: red;
+        }
+
+        .ml-orders {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #ddd;
+        }
+
+        .ml-orders th, .ml-orders td {
+            vertical-align: bottom;
+            border-bottom: 2px solid #ddd;
+            padding: 8px;
+            border: 1px solid #ddd;
+            background: #f8f8f8;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/js/page_context.js"></script>
+    <style>[touch-action="none"] {
+        -ms-touch-action: none;
+        touch-action: none;
+    }
+
+    [touch-action="pan-x"] {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+    }
+
+    [touch-action="pan-y"] {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }
+
+    [touch-action="scroll"], [touch-action="pan-x pan-y"], [touch-action="pan-y pan-x"] {
+        -ms-touch-action: pan-x pan-y;
+        touch-action: pan-x pan-y;
+    }</style>
+    <style id="clearly_highlighting_css" type="text/css">/* selection */
+    html.clearly_highlighting_enabled ::-moz-selection {
+        background: rgba(246, 238, 150, 0.99);
+    }
+
+    html.clearly_highlighting_enabled ::selection {
+        background: rgba(246, 238, 150, 0.99);
+    }
+
+    /* cursor */
+    html.clearly_highlighting_enabled {
+        /* cursor and hot-spot position -- requires a default cursor, after the URL one */
+        cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text;
+    }
+
+    /* highlight tag */
+    em.clearly_highlight_element {
+        font-style: inherit !important;
+        font-weight: inherit !important;
+        background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");
+        background-repeat: repeat-x;
+        background-position: top left;
+        background-size: 100% 100%;
+    }
+
+    /* the delete-buttons are positioned relative to this */
+    em.clearly_highlight_element.clearly_highlight_first {
+        position: relative;
+    }
+
+    /* delete buttons */
+    em.clearly_highlight_element a.clearly_highlight_delete_element {
+        display: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        left: -17px;
+        top: -17px;
+        background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png");
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+    }
+
+    em.clearly_highlight_element a.clearly_highlight_delete_element:hover {
+        background-position: -34px 0px;
+    }
+
+    /* retina */
+    @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+        em.clearly_highlight_element {
+            background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png");
+        }
+
+        em.clearly_highlight_element a.clearly_highlight_delete_element {
+            background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png");
+            background-size: 68px 34px;
+        }
+    } </style>
+</head>
+<body screen_capture_injected="true">
+
+<div id="site_notice">
+
+</div>
+
+<div id="wrapper">
+    <div id="header">
+        #parse("/common/partital/user_panel.vm")
+        <h1 id="logo">
+            <a href="/" class="logo" title="本好杂志">上帝之耳</a>
+        </h1>
+
+        <div style="font-size: 14px; margin-top: 8px;">
+            全文RSS订阅推送服务，支持Kindle、多看和Nook等移动电子阅读设备
+        </div>
+    </div>
+    <div id="content">
+
+        <div id="left_column">
+            <div id="paginationTop" class="pagination">
+                <a style="text-decoration: none;" href="/feeds/create"><span
+                        style="text-decoration: underline;">添加RSS</span> +</a>
+            </div>
+            <h2 id="categoryHeader">
+
+                推荐
+
+                <span style="color: #ccc;">•</span>
+
+                <a style="font-weight: normal;" href="/all">全部</a>
+
+                <span style="color: #ccc;">•</span>
+
+                <a style="font-weight: normal;" href="/top100">排行榜</a>
+
+                <span style="color: #ccc;">•</span>
+                <a style="font-weight: normal;" href="/feeds/my">我的订阅</a>
+            </h2>
+            #parse($template)
+        </div>
+        <div id="right_column">
+
+            <div id="search_container" style="margin: 30px 0 5px 0;">
+                <a target="_blank"
+                   href="http://www.amazon.cn/gp/product/B00CWPIDHI/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00CWPIDHI&amp;linkCode=as2&amp;tag=dogear-23">第二代Kindle
+                    Paperwhite电子书阅读器行货上市了！</a>
+
+                <div style="clear: both; font-size: 1px; line-height: 1px;">&nbsp;</div>
+            </div>
+
+            <h3 class="section_header" style="margin: 5px 0 5px 0;">搜索</h3>
+
+            <div id="search_container">
+                <form action="/all">
+                    <input type="text" x-webkit-speech="" speech="" class="q" name="q" value="">
+                    <input type="submit" class="submit" value="提交">
+                </form>
+            </div>
+
+            <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle" style="display:inline-block;width:200px;height:200px"
+                 data-ad-client="ca-pub-5389412877154787" data-ad-slot="2122654993" data-adsbygoogle-status="done">
+                <ins style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent">
+                    <ins id="aswift_0_anchor"
+                         style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent">
+                        <iframe width="200" height="200" frameborder="0" marginwidth="0" marginheight="0" vspace="0"
+                                hspace="0" allowtransparency="true" scrolling="no"
+                                onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
+                                id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe>
+                    </ins>
+                </ins>
+            </ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <h3 class="section_header" style="margin:5px 0 5px 0;">关注</h3>
+
+            <div class="folder_container">
+                新浪微博：<a href="http://weibo.com/dogear" target="_blank" rel="external">@狗耳朵订阅</a><br>
+                <!--支持我们：<a href="https://me.alipay.com/liangxiaobo" rel="external">支付宝赞助</a>-->
+                <div style="clear: both; font-size: 1px; line-height: 1px;">&nbsp;</div>
+            </div>
+
+            <h3 class="section_header" style="margin: 5px 0 5px 0;">分类</h3>
+
+            <div class="folder_container">
+                <div id="folders">
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/all">全部</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/1">资讯</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/2">博客</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/3">学习</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/4">娱乐</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/6">杂志</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/7">文学</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/10">科技</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/12">财经</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/13">生活</a>
+                    </div>
+
+                    <div class="folder">
+                        <img src="http://dn-dogear.qbox.me/static/folder-tiny.png?v=1.0"
+                             style="width: 12px; height: 9px; margin-right: 2px;">
+                        <a href="/c/14">文化</a>
+                    </div>
+
+                </div>
+                <div style="clear: both; font-size: 1px; line-height: 1px;">&nbsp;</div>
+            </div>
+
+            <!-- <h3 class="section_header" style="margin:5px 0 5px 0;">支持正版Kindle电子书</h3>
+            <div class="folder_container">
+            <script charset="utf-8" type="text/javascript" src="http://ws.assoc-amazon.cn/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=CN&ID=V20070822/CN/dogear-23/8002/06b710b2-e6c5-4b1d-a5b9-4e0d429ebbe8"> </script>
+            <div style="clear: both; font-size: 1px; line-height: 1px;">&nbsp;</div>
+            </div> -->
+
+            <h3 class="section_header" style="margin:5px 0 5px 0;">友情链接</h3>
+
+            <div class="folder_container">
+                <a href="http://www.mlook.mobi/" target="_blank">mLook 精校电子书</a><br>
+
+                <a href="http://url.cn/8iw2wy" rel="nofollow" target="_blank">觅奇猫淘宝拾趣店</a><br>
+
+                <div style="clear: both; font-size: 1px; line-height: 1px;">&nbsp;</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        ©&nbsp;2010 dogear, design steal from <a href="http://www.instapaper.com" rel="external">Instapaper</a>.
+    </div>
+</div>
+
+<script src="http://dn-dogear.qbox.me/static/jquery-1.5.2.min.js?v=1.0"></script>
+<script type="text/javascript">
+    jQuery.cookie = function (a, b, c) {
+        if (typeof b == "undefined") {
+            var i = null;
+            if (document.cookie && document.cookie != "") {
+                var j = document.cookie.split(";");
+                for (var k = 0; k < j.length; k++) {
+                    var l = jQuery.trim(j[k]);
+                    if (l.substring(0, a.length + 1) == a + "=") {
+                        i = decodeURIComponent(l.substring(a.length + 1));
+                        break
+                    }
+                }
+            }
+            return i
+        }
+        c = c || {}, b === null && (b = "", c.expires = -1);
+        var d = "";
+        if (c.expires && (typeof c.expires == "number" || c.expires.toUTCString)) {
+            var e;
+            typeof c.expires == "number" ? (e = new Date, e.setTime(e.getTime() + c.expires * 24 * 60 * 60 * 1e3)) : e = c.expires, d = "; expires=" + e.toUTCString()
+        }
+        var f = c.path ? "; path=" + c.path : "",
+                g = c.domain ? "; domain=" + c.domain : "",
+                h = c.secure ? "; secure" : "";
+        document.cookie = [a, "=", encodeURIComponent(b), d, f, g, h].join("")
+    }
+    function getCookie(name) {
+        var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+        return r ? r[1] : undefined;
+    }
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+
+        $('.likeLink').click(function () {
+            ajax_request(this, '喜欢失败', true);
+            var fid = $(this).attr("id").replace('like', '');
+            return false;
+        });
+        $('.dislikeLink').click(function () {
+            ajax_request(this, '失败', true);
+            var fid = $(this).attr("id").replace('like', '');
+            return false;
+        });
+        $('.pingLink').click(function () {
+            ajax_request(this, '失败', true, function () {
+                alert("加入采集队列成功！");
+            });
+            return false;
+        });
+        $('.reportLink').click(function () {
+            if ($(this).attr('href') == '' || $(this).attr('href') == '#')
+                return false
+            var t = $(this);
+            t.html("正在提交");
+            ajax_request(this, '失败', true, function () {
+                t.html("谢谢！")
+            });
+            return false;
+        });
+        $('.unreportLink').click(function () {
+            var t = $(this);
+            ajax_request(this, '失败', true, function () {
+                t.html("好了")
+            });
+            return false;
+        });
+        $('.subscribeLink').click(function () {
+            if ($(this).hasClass("restoreButton")) {
+                return
+            }
+            ;
+
+            alert("请先登录");
+
+            return false;
+        });
+        $('.moveLink').click(function () {
+            var feed_id = $(this).attr("data-feedid");
+            $("#foldermenu" + feed_id).hide();
+            ajax_request(this, '移动失败');
+            return false;
+        });
+
+    });
+    function ajax_progress(id) {
+        var oldRow = document.getElementById('tableViewCell' + id);
+        var progressDiv = document.createElement('div');
+        progressDiv.setAttribute('id', 'tableViewCell' + id);
+        progressDiv.setAttribute('class', 'tableViewCell tableViewCellAjaxReplacement');
+        progressDiv.setAttribute('style', 'height: ' + oldRow.clientHeight + 'px;');
+        var spinner = document.createElement('img');
+        spinner.setAttribute('class', 'ajaxActivityButton');
+        spinner.setAttribute('src', 'http://dn-dogear.qbox.me/static/loader-gray-big.gif?v=1.0');
+        spinner.setAttribute('style', 'margin-top: ' + (Math.round(oldRow.clientHeight / 2) - 16) + 'px;');
+        progressDiv.appendChild(spinner);
+        oldRow.parentNode.replaceChild(progressDiv, oldRow);
+    }
+    function ajax_request(t, m, d, callback) {
+        var xsrf_token = "2c8deeddcf7644679898ee489b8ce796";
+        var href = $(t).attr('href');
+        var url_parsed = /^\/feed\/([0-9]+)\/.*$/.exec(href);
+        var id = url_parsed[1];
+        if (!id) return false;
+        if (href == '' || href == '#')
+            return false
+        $(t).attr('href', '###');
+        if (d != true)
+            ajax_progress(id);
+        $.post(href, { 'ajax': 1, '_xsrf': xsrf_token },
+                function (data) {
+                    if (data == 'ok') {
+                        if (callback)
+                            callback(t)
+                        else if (d != true)
+                            $('#tableViewCell' + id).hide();
+                        $('.tableViewCell:last-child').addClass('tableViewCellLast');
+                    } else {
+                        alert(m);
+                    }
+                    return false;
+                }
+        );
+        return false;
+    }
+</script>
+
+
+</body>
+<iframe id="evernoteFilingTools"
+        src="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/filing_tools/filing_tools.html"></iframe>
+<iframe id="evernoteUserTools"
+        src="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/user_tools/user_tools.html"></iframe>
+<iframe id="evernoteShareTools"
+        src="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/share_tools/share_tools.html"></iframe>
+<iframe id="evernoteEmailSharing"
+        src="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/share_tools/email_sharing.html"></iframe>
+<iframe id="evernoteGlobalTools"
+        src="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content/global_tools/global_tools.html"></iframe>
+</html>

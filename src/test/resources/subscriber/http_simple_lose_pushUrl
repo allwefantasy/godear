@@ -1,0 +1,13 @@
+/**
+验证无push.url参数是否可用
+*/
+{
+    "push": {},
+    "destroy": {
+        "url": "http://search.api.csdn.net/{}/csdn/_destroy"
+    },
+    "sources": [
+        "download",
+        "blog"
+    ]
+}

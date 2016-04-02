@@ -1,0 +1,22 @@
+/**
+验证如下形式的filter参数是否有效
+*/
+{
+    "push": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "database": "wow",
+        "table": "data",
+        "fields": [
+            "id",
+            "title"
+        ],
+        "timeout": 5000,
+        "filter": ""
+    },
+    "sources": [
+        "download",
+        "blog"
+    ],
+    "type": "MONGO"
+}

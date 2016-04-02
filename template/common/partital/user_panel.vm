@@ -1,0 +1,12 @@
+#if( "$!bookmarker" == "" )
+<div id="userpanel">
+    <a href="/users/login">登录</a>
+    <span style="color: #ccc;">•</span>
+    <a href="/users/create">注册</a>
+    <span style="color: #ccc;">•</span>
+    <a href="/help">帮助</a>
+</div>
+#else
+欢迎 $bookmarker.email
+#end
+
